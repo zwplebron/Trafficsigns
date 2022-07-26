@@ -1,0 +1,1007 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd:0"/>
+		<IR id="395" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="243" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_relu/Relu6:0"/>
+		<IR id="257" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="151" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="384" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/map/TensorArrayV2Stack/TensorListStack" out_port_id="StatefulPartitionedCall/map/TensorArrayV2Stack/TensorListStack:0"/>
+		<IR id="27" name="3170" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape/shape:0"/>
+		<IR id="309" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/bn_Conv1/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/bn_Conv1/FusedBatchNormV3:0"/>
+		<IR id="30" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/bn_Conv1/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape/shape:0"/>
+		<IR id="388" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="225" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D:0"/>
+		<IR id="375" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1_bn/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1_bn/FusedBatchNormV3:0"/>
+		<IR id="266" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1_bn/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_relu/Relu6:0"/>
+		<IR id="179" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_relu/Relu6:0"/>
+		<IR id="235" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_add/add:0"/>
+		<IR id="102" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="245" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape:0"/>
+		<IR id="373" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128/Relu6:0"/>
+		<IR id="339" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape:0"/>
+		<IR id="310" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="117" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_relu/Relu6:0"/>
+		<IR id="250" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project_BN/FusedBatchNormV3:0"/>
+		<IR id="196" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="8" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="290" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="147" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="254" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape/shape:0"/>
+		<IR id="396" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="4" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project_BN/FusedBatchNormV3:0"/>
+		<IR id="72" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="203" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape/shape:0"/>
+		<IR id="364" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape/shape:0"/>
+		<IR id="327" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="198" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project_BN/FusedBatchNormV3:0"/>
+		<IR id="47" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd:0"/>
+		<IR id="371" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="256" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="358" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="193" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="220" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="202" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="96" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="49" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_relu/Relu6:0"/>
+		<IR id="80" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/concat" out_port_id="StatefulPartitionedCall/concat:0"/>
+		<IR id="347" name="StatefulPartitionedCall/concat" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape:0"/>
+		<IR id="328" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64/Relu6:0"/>
+		<IR id="336" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="83" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512/Relu6:0"/>
+		<IR id="285" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="42" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256/Relu6:0"/>
+		<IR id="282" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D:0"/>
+		<IR id="367" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="79" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/concat_1" out_port_id="StatefulPartitionedCall/concat_1:0"/>
+		<IR id="398" name="StatefulPartitionedCall/concat_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="352" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128/Relu6:0"/>
+		<IR id="300" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_relu/Relu6:0"/>
+		<IR id="194" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="260" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="105" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape:0"/>
+		<IR id="357" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project_BN/FusedBatchNormV3:0"/>
+		<IR id="237" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="302" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="187" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd:0"/>
+		<IR id="363" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project_BN/FusedBatchNormV3:0"/>
+		<IR id="223" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_relu/Relu6:0"/>
+		<IR id="59" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="277" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="258" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_relu/Relu6:0"/>
+		<IR id="110" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="109" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="286" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="169" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="77" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_relu/Relu6:0"/>
+		<IR id="139" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="287" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="247" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project_BN/FusedBatchNormV3:0"/>
+		<IR id="61" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv1_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv1_relu/Relu6:0"/>
+		<IR id="31" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv1_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="299" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="123" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="374" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="58" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv1/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv1/Conv2D/ReadVariableOp:0"/>
+		<IR id="28" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/bn_Conv1/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project_BN/FusedBatchNormV3:0"/>
+		<IR id="126" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="174" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="333" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="98" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_relu/Relu6:0"/>
+		<IR id="95" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="54" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_relu/Relu6:0"/>
+		<IR id="175" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="311" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="322" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="232" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="206" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="136" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape/shape:0"/>
+		<IR id="372" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_relu/Relu6:0"/>
+		<IR id="106" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="304" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project_BN/FusedBatchNormV3:0"/>
+		<IR id="37" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="390" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256/Relu6:0"/>
+		<IR id="321" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="360" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256/Relu6:0"/>
+		<IR id="303" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="249" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd:0"/>
+		<IR id="355" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="323" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="315" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="320" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="94" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="89" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D:0"/>
+		<IR id="383" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="200" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="335" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_5_1x1_64_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_relu/Relu6:0"/>
+		<IR id="124" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128/Relu6:0"/>
+		<IR id="318" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="191" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="32" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="158" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_relu/Relu6:0"/>
+		<IR id="35" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_add/add:0"/>
+		<IR id="197" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="216" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape:0"/>
+		<IR id="365" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="176" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape/shape:0"/>
+		<IR id="207" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="172" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="329" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="331" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="293" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="20" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_relu/Relu6:0"/>
+		<IR id="84" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="382" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_relu/Relu6:0"/>
+		<IR id="45" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="134" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="313" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_4_3x3_s2_256_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="144" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="16" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="65" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="56" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape:0"/>
+		<IR id="397" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_add/add:0"/>
+		<IR id="142" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape/shape:0"/>
+		<IR id="356" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="34" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/expanded_conv_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_relu/Relu6:0"/>
+		<IR id="99" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="281" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project_BN/FusedBatchNormV3:0"/>
+		<IR id="101" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_relu/Relu6:0"/>
+		<IR id="135" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="189" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="305" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D:0"/>
+		<IR id="359" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_1/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="218" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape:0"/>
+		<IR id="389" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="44" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_add/add:0"/>
+		<IR id="87" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="240" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="272" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_add/add:0"/>
+		<IR id="238" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="366" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_relu/Relu6:0"/>
+		<IR id="66" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="212" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="52" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/out_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/out_relu/Relu6:0"/>
+		<IR id="267" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/out_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape/shape:0"/>
+		<IR id="291" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="295" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_3_3x3_s2_256_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" out_port_id="Func/StatefulPartitionedCall/input/_0:0"/>
+		<IR id="23" name="input_tensor" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="input_tensor" out_port_id="input_tensor:0"/>
+		<IR id="23" name="input_tensor" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_relu/Relu6:0"/>
+		<IR id="261" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_relu/Relu6:0"/>
+		<IR id="161" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_add/add:0"/>
+		<IR id="253" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D:0"/>
+		<IR id="351" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd:0"/>
+		<IR id="387" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_4/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="209" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="275" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="228" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd:0"/>
+		<IR id="379" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_relu/Relu6:0"/>
+		<IR id="190" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="338" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_5_3x3_s2_128_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="121" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_add/add:0"/>
+		<IR id="182" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape:0"/>
+		<IR id="346" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project_BN/FusedBatchNormV3:0"/>
+		<IR id="263" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_16_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project_BN/FusedBatchNormV3:0"/>
+		<IR id="252" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="149" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="74" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="340" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project_BN/FusedBatchNormV3:0"/>
+		<IR id="156" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="129" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_relu/Relu6:0"/>
+		<IR id="150" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project_BN/FusedBatchNormV3:0"/>
+		<IR id="112" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_relu/Relu6:0"/>
+		<IR id="221" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape:0"/>
+		<IR id="292" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_2/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project_BN/FusedBatchNormV3:0"/>
+		<IR id="181" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="392" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="38" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Postprocessor/ExpandDims" out_port_id="StatefulPartitionedCall/Postprocessor/ExpandDims:0"/>
+		<IR id="0" name="StatefulPartitionedCall/Postprocessor/ExpandDims" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape/shape:0"/>
+		<IR id="345" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="350" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_0/ClassPredictor/Conv2D/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape/shape:0"/>
+		<IR id="273" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_relu/Relu6:0"/>
+		<IR id="120" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="344" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="368" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_2/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="308" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_3/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D:0"/>
+		<IR id="391" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_5/ClassPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="40" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="234" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D:0"/>
+		<IR id="268" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="153" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project_BN/FusedBatchNormV3:0"/>
+		<IR id="141" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="132" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_relu/Relu6:0"/>
+		<IR id="246" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_15_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="164" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape:0"/>
+		<IR id="381" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="107" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project_BN/FusedBatchNormV3:0"/>
+		<IR id="86" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape:0"/>
+		<IR id="274" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_add/add:0"/>
+		<IR id="127" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_relu/Relu6:0"/>
+		<IR id="70" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="103" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_6_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="178" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_11_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="119" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="269" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_1/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd:0"/>
+		<IR id="326" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_4/BoxEncodingPredictor/BiasAdd/Add/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="341" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_5/BoxEncodingPredictor/BiasAdd/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1/Conv2D/ReadVariableOp:0"/>
+		<IR id="264" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/Conv_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D/ReadVariableOp:0"/>
+		<IR id="1" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/BoxEncodingPredictor/Conv2D/ReadVariableOp/ReshapeBack" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape/shape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape/shape:0"/>
+		<IR id="380" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/Reshape/shape" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="12" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project_BN/FusedBatchNormV3:0"/>
+		<IR id="167" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_project_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="230" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape:0"/>
+		<IR id="208" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalBoxHead_0/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd/ReadVariableOp:0"/>
+		<IR id="376" name="StatefulPartitionedCall/BoxPredictor/ConvolutionalClassHead_3/ClassPredictor/BiasAdd/ReadVariableOp" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="92" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_5_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="279" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_2_1x1_256_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_relu/Relu6:0"/>
+		<IR id="201" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_13_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_relu/Relu6:0"/>
+		<IR id="55" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="317" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_4_1x1_128_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_relu/Relu6:0"/>
+		<IR id="231" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_14_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_batchnorm/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_batchnorm/FusedBatchNormV3:0"/>
+		<IR id="284" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_2_Conv2d_2_3x3_s2_512_batchnorm/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_add/add:0"/>
+		<IR id="62" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_2_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand/Conv2D/ReadVariableOp:0"/>
+		<IR id="63" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_expand_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_conv/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_conv/Conv2D/ReadVariableOp:0"/>
+		<IR id="297" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/FeatureMaps/layer_19_1_Conv2d_3_1x1_128_batchnorm/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="81" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_4_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="114" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_7_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="162" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_relu/Relu6:0"/>
+		<IR id="154" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_add/add" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_add/add:0"/>
+		<IR id="157" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_9_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="69" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_relu/Relu6:0"/>
+		<IR id="165" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise/depthwise/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise/depthwise/ReadVariableOp:0"/>
+		<IR id="67" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_3_depthwise_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project/Conv2D/ReadVariableOp" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project/Conv2D/ReadVariableOp:0"/>
+		<IR id="184" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_12_project_BN/FusedBatchNormV3/mean/Fused_Mul__copy" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_relu/Relu6" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_relu/Relu6:0"/>
+		<IR id="41" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_1_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_BN/FusedBatchNormV3:0"/>
+		<IR id="138" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_8_depthwise_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_BN/FusedBatchNormV3" out_port_id="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_BN/FusedBatchNormV3:0"/>
+		<IR id="160" name="StatefulPartitionedCall/ssd_mobile_net_v2_keras_feature_extractor/model/block_10_expand_BN/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+</mapping>
